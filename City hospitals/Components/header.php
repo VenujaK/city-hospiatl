@@ -61,7 +61,9 @@ html::-webkit-scrollbar-thumb {
                     <li class="nav-item">
                         <a class="nav-link" href="./Services.php">Services</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Services.php">Laboratory</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link " href="./AboutUs.php">About Us</a>
                     </li>
