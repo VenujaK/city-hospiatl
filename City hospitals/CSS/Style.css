@@ -1,36 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-}
-
-:root {
-    --main-color: #1289EA;
-    --text-color: #ffffff;
-}
-
-body {
-    background-size: contain;
-    background-attachment: local;
-}
-
-html::-webkit-scrollbar {
-    width: 6px;
-}
-
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: var(--main-color);
-}
-
 .herotxt-main {
     font-size: 60px;
     font-weight: 600;
@@ -66,4 +36,21 @@ span {
 
 .p-3.gg {
     margin-top: 50px;
+}
+
+.serviceban {
+    box-shadow: 5px 5px 20px rgba(3, 24, 255, 0.219);
+}
+
+
+/* Service Section */
+
+.svCrd {
+    margin-top: 40px;
+}
+
+.svCrd>.row>.col {
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(3, 24, 255, 0.219);
 }
